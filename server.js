@@ -4,6 +4,9 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 require('dotenv').config();
 
+// Import utilities
+const { initializeData } = require('./utils/initData');
+
 // Import routes
 const productRoutes = require('./routes/products');
 const customerRoutes = require('./routes/customers');
@@ -55,8 +58,11 @@ app.use('*', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
   console.log(`🚀 Server running on port ${PORT}`);
   console.log(`📍 Environment: ${process.env.NODE_ENV}`);
   console.log(`🔗 CORS Origin: ${process.env.CORS_ORIGIN}`);
+  
+  // Initialize data files
+  await initializeData();
 });
