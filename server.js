@@ -32,6 +32,23 @@ app.use('/api/customers', customerRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 
+// Root endpoint
+app.get('/', (req, res) => {
+  res.status(200).json({
+    message: '🚀 Gilsanum API Server',
+    version: '1.0.0',
+    status: 'Running',
+    endpoints: {
+      products: '/api/products',
+      customers: '/api/customers',
+      orders: '/api/orders',
+      dashboard: '/api/dashboard',
+      health: '/health'
+    },
+    timestamp: new Date().toISOString()
+  });
+});
+
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.status(200).json({
