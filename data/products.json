@@ -8,10 +8,13 @@
       "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop",
       "category": "Electronics",
       "featured": true,
-      "location": {
-        "lat": 40.7128,
-        "lng": -74.0060,
-        "address": "New York, NY"
+      "shop": {
+        "name": "TechHub Electronics",
+        "location": {
+          "lat": 40.7589,
+          "lng": -73.9851,
+          "address": "123 Tech Street, Manhattan, NY 10001"
+        }
       },
       "rating": 4.5,
       "reviews": 128,
@@ -31,10 +34,13 @@
       "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&h=300&fit=crop",
       "category": "Fashion",
       "featured": true,
-      "location": {
-        "lat": 40.7589,
-        "lng": -73.9851,
-        "address": "Manhattan, NY"
+      "shop": {
+        "name": "Fashion Central",
+        "location": {
+          "lat": 40.7282,
+          "lng": -74.0776,
+          "address": "456 Fashion Ave, Brooklyn, NY 11201"
+        }
       },
       "rating": 4.8,
       "reviews": 89,
@@ -54,10 +60,13 @@
       "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop",
       "category": "Electronics",
       "featured": true,
-      "location": {
-        "lat": 40.6782,
-        "lng": -73.9442,
-        "address": "Brooklyn, NY"
+      "shop": {
+        "name": "TechHub Electronics",
+        "location": {
+          "lat": 40.7589,
+          "lng": -73.9851,
+          "address": "123 Tech Street, Manhattan, NY 10001"
+        }
       },
       "rating": 4.3,
       "reviews": 76,
@@ -77,10 +86,13 @@
       "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop",
       "category": "Electronics",
       "featured": true,
-      "location": {
-        "lat": 40.7505,
-        "lng": -73.9934,
-        "address": "Times Square, NY"
+      "shop": {
+        "name": "Mobile Central",
+        "location": {
+          "lat": 40.7505,
+          "lng": -73.9934,
+          "address": "789 Mobile Plaza, Times Square, NY 10036"
+        }
       },
       "rating": 4.6,
       "reviews": 203,
@@ -100,10 +112,13 @@
       "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&h=300&fit=crop",
       "category": "Electronics",
       "featured": false,
-      "location": {
-        "lat": 40.7831,
-        "lng": -73.9712,
-        "address": "Upper West Side, NY"
+      "shop": {
+        "name": "Photo Studio",
+        "location": {
+          "lat": 40.7831,
+          "lng": -73.9712,
+          "address": "321 Photo Street, Upper West Side, NY 10025"
+        }
       },
       "rating": 4.4,
       "reviews": 154,
@@ -123,10 +138,13 @@
       "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop",
       "category": "Electronics",
       "featured": false,
-      "location": {
-        "lat": 40.7282,
-        "lng": -73.7949,
-        "address": "Queens, NY"
+      "shop": {
+        "name": "Sound Studio",
+        "location": {
+          "lat": 40.6892,
+          "lng": -74.0445,
+          "address": "555 Audio Ave, Staten Island, NY 10301"
+        }
       },
       "rating": 4.2,
       "reviews": 98,
